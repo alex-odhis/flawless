@@ -1,0 +1,10 @@
+.footer {
+    color: white;
+    background: linear-gradient(45deg, red, #D7008A);
+
+}
+
+.icons a {
+    padding: 5px;
+    text-decoration: none;
+}

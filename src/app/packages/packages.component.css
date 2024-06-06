@@ -1,0 +1,54 @@
+.package {
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+.package i {
+    color: yellow;
+    font-size: 20px;
+}
+
+#pic img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 2px solid mediumvioletred;
+}
+
+#action{
+    color: #D7008A;
+    border: 2px solid #D7008A;
+    border-radius: 50px;
+}
+#action:hover {
+    color: white;
+    background-color: #D7008A;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+
+.teaching {
+    background: linear-gradient(45deg, red, #D7008A);
+
+}
+
+.teaching-style {
+    /* max-width: 500px; */
+    margin: 0 auto;
+
+}
+
+#lessons .btn{
+    color: #D7008A;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+#lessons .btn:hover {
+    color: aliceblue;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid aliceblue;
+}

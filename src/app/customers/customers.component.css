@@ -1,0 +1,31 @@
+/* .pics {
+    margin: 0 auto;
+} */
+
+.pics img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px black;
+}
+
+.pics h6 {
+    color: mediumvioletred;
+}
+
+.recent-client:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pics a{
+    color: mediumvioletred;
+    border: 2px solid mediumvioletred;
+    border-radius: 50px;
+}
+.pics a:hover {
+    color: white;
+    background-color: mediumvioletred;
+    /* border: 2px solid white; */
+    border-radius: 50px;
+}

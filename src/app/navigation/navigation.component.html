@@ -1,0 +1,49 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light" [class.header_change]="header_variable">
+    <div class="container">
+        <a class="navbar-brand " href="#">
+            <h2>Flawless<i class="fa fa-diamond "></i>Makeup</h2>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" [routerLink]="['#']">HOME<span
+                            class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="toPackages()">PACKAGES</a>
+                </li>
+        
+                <!-- <a class="navbar-brand d-none d-sm-block" href="#">Navbar</a> -->
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="toLessons()">MAKEUP LESSONS</a>
+                </li>
+        
+                <!-- <a class="navbar-brand mx-4 mt-1 nav-link d-xs-none d-sm-none d-lg-block" href="#">
+                        <h5>flawless<i class="fa fa-diamond"></i>makeup</h5>
+                    </a> -->
+        
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="toClients()">RECENT CLIENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" (click)="toContact()">CONTACTS</a>
+                </li>
+            </ul>
+        
+        
+        
+            <div class="icons">
+                <a href="#" class=" fa fa-facebook mx-2"></a>
+                <a href="#" class=" fa fa-twitter-square mx-2"></a>
+                <a href="#" class=" fa fa-instagram mx-2"></a>
+                <a href="#" class=" fa fa-whatsapp mx-2"></a>
+            </div>
+        </div>
+    </div>
+</nav>

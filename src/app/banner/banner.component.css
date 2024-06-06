@@ -1,0 +1,64 @@
+.bg {
+
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    filter: brightness(70%);
+    /* -webkit-clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 38%, 78% 100%, 0 100%, 0 0); */
+
+}
+
+.background .intro {
+    color: mediumvioletred;
+    padding: 10px;
+    position: absolute;
+    bottom: 150px;
+    /* margin-left: 40px; */
+    z-index: 2;
+}
+
+.intro h1,
+h3 {
+    color: yellow;
+}
+
+.background .intro p {
+    color: mediumvioletred;
+    max-width: 400px;
+    font-family: 'Dancing Script', cursivef;
+}
+
+.background i {
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+    color: mediumvioletred;
+
+}
+
+
+.intro a:hover {
+    color: mediumvioletred;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 2px solid mediumvioletred;
+}
+.intro a {
+    color: aliceblue;
+    background-color: mediumvioletred;
+    border-radius: 50px;
+    border: 2px solid mediumvioletred;
+}
+
+#home {
+    position: relative;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

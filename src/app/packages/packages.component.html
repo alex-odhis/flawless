@@ -1,0 +1,34 @@
+<div class="mt-5" id="packages">
+    <h3 class="text-center">Our packages</h3>
+    <div *ngIf="packages" class="row package text-center container my-3 ">
+        <div *ngFor="let package of packages" class=" col-sm-4 text-center">
+            <i class="{{ package.icon }}"></i>
+            <h5>{{ package.name }}</h5>
+            <div class="wow slideInLeft" data-wow-duration="28" data-wow-delay="8s">
+                <a id="pic">
+                    <img class="img-fluid rounded-circle" [src]="package.img" [alt]="package.name">
+                </a>
+                <p>{{package.description}}</p>
+            </div>
+            <a id="action" href="mailto:lxodhiambo@gmail.com" class="btn">Book Session</a>
+        </div>
+
+    </div>
+</div>
+<div id="lessons" class="teaching text-center py-5">
+    <div class="teaching-style container">
+        <h3 class="text-warning">Makeup Lessons</h3>
+        <p class="text-light">The art of applying makeup is a delicate balance of creativity and technique. It's about enhancing natural beauty while
+        expressing individuality. From mastering the perfect winged eyeliner to blending foundation seamlessly, each step
+        requires precision and practice. Understanding facial features, skin tones, and product textures is crucial. Makeup
+        isn't just about covering flaws; it's about self-expression and confidence. Whether creating a dramatic look for a
+        special occasion or a subtle everyday glow, the key is to embrace personal style and experiment fearlessly. With the
+        right tools and knowledge, makeup becomes a powerful tool for transformation, allowing one to look and feel their best.</p>
+        <a class="btn" href="mailto:lxodhiambo@gmail.com">Apply for Classes</a>
+
+    </div>
+</div>
+
+<!-- <div>
+    <div class="bg-attachment img-fluid" [ngStyle]="{'background-image': 'url(../assets/images/paint1.jpeg)'}"></div>
+</div> -->

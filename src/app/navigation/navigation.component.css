@@ -1,0 +1,50 @@
+.navbar {
+    background-color: transparent ! important;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursivef;
+    color: pink;
+}
+
+li a {
+    color: pink !important;
+}
+
+li a:hover {
+    color: pink !important;
+    border-bottom: 2px solid mediumvioletred;
+}
+
+li a:active {
+    color: pink !important;
+    border-bottom: 2px solid mediumvioletred;
+}
+
+.navbar-brand i {
+    color: yellow;
+    padding: 2px;
+    margin: 0 3px;
+}
+
+li {
+    cursor: pointer;
+    font-size: 17px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+} 
+
+.header_change {
+    background: #222066 !important;
+    opacity: 50%;
+}
+
+.icons a {
+    color: mediumvioletred;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+<div class="customers " id="cliets" *ngIf="customers.length > 0">
+    <h3 class="text-center m-4">Resent Clients</h3>
+    <section class="container">
+        <div class="row pics">
+            <div *ngFor="let customer of customers" class="recent-client row r my-3 mx-1">
+                <div class="col-sm-6 ">
+                    <img class="img-fluid rounded" [src]="customer.img" [alt]="customer.tone">
+                </div>
+                <div class="col-sm-6">
+                    <i class="fa fa-heart text-danger"></i>
+                    <h4>Skin tone: {{ customer.tone }}</h4>
+                    <p>{{ customer.description }}</p>
+                    <a class="btn" href="mailto:lxodhiambo@gmail.com">Book Session</a>
+                </div>
+            </div>
+        </div>
+    </section>  
+</div>

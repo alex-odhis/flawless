@@ -1,0 +1,27 @@
+.slide {
+    background: linear-gradient(70deg, #FFF4F4F4, #FF949494, #FFF4F4F4);
+}
+
+.slide-image {
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 auto;
+}
+
+.slide-image img {
+    width: 100% !important;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid rgb(197, 34, 34);
+    border-radius: 50%;
+}
+
+/* .slide-image img {
+    width: 100% !important;
+    margin: 0 auto;
+} */
+
+.slide p {
+    font-size: 15px;
+    font-style: italic;
+}
